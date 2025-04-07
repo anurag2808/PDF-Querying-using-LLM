@@ -9,7 +9,7 @@ import google.generativeai as genai
 import os
 
 # Set up API key
-GOOGLE_API_KEY = "AIzaSyCzR6La9YT8Ww51fyhGiGTTQQcqzia31Z4"  # Replace with your API key
+GOOGLE_API_KEY = ""  # Replace with your API key
 os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
 genai.configure(api_key=GOOGLE_API_KEY)
 
